@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#col_logo {
+    text-align: left;
+}
+
+#logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 110px;
+}
+
+#Search {
+    margin-left: 7px;
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
+
+#home_search_bun {
+    margin-left: -50px;
+    background-image: linear-gradient(109.6deg, rgb(37, 64, 114) 11.2%, rgb(10, 47, 90) 91.1%);
+    color: #fff;
+}
+
+#home_header .fas {
+    color: rgb(37, 64, 114);
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 27px;
+}
+
+#catagoris_list {
+    margin-top: 10px;
+}
+
+.list-group {
+    border-radius: 0%;
+}
+
+.list-group i {
+    font-size: 16px;
+    margin-right: 10px;
+    color: rgba(2, 2, 2, 0.76);
+}
+
+.list-group button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 1px solid rgb(199, 196, 196);
+    text-align: justify;
+    margin-bottom: 3px;
+}
+
+.list-group button:hover {
+    background-color: rgb(208, 211, 208);
+}
+#top_products{
+    background-color: rgb(122, 122, 122);
+    border: none;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    margin-bottom:20px;
+}
+#catagoris_heading1 {
+    background-color: rgb(122, 122, 122);
+    border: none;
+    font-size: 24px;
+    color: #fff;
+}
+
+#home_banner {
+    margin-top: 10px;
+}
+
+#home_top_products {
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.top_products img {
+    height: 110px;
+    width: 110px;
+    margin-top: 7px;
+}
+
+/* #icon_col{
+    background-color: rgb(155, 58, 58);
+    
+} */
+#icon_head_col {
+    margin-top: 10px;
+}
+
+#icon_col i {
+    font-size: 45px;
+    margin: 20px;
+    color: rgb(37, 64, 114);
+    border: 1px solid rgb(37, 64, 114);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#icon_col i:hover {
+    transition: 1200ms;
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+    border: none;
+    /* color: rgb(52, 114, 37);
+    border: 2px solid rgb(52, 114, 37); */
+}
+
+#home_products_area_no1 {
+    margin-bottom: 40px;
+}
+#home_products__head_col {
+    margin-top: 10px;
+}
+
+.card {
+    text-align: justify;
+    border: none;
+    /* background-color: rgb(143, 17, 17); */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card:hover {
+    transition: 400ms;
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+    border: none;
+    /* color: rgb(52, 114, 37);
+    border: 2px solid rgb(52, 114, 37); */
+}
+
+.card img {
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    display: block;
+
+}
+.card-body{
+    margin-top:-20px;
+}
+.card-title{
+    margin-top:-20px;
+}
+.product_reating{
+    text-align: right;
+}
+.product_reating i{
+    font-size:14px;
+    color: rgb(241, 214, 77);
+}
+.card-footer {
+    background-color: #fff;
+    border: none;
+    text-align: center;
+}
+
+.card button {
+    text-align: center;
+    margin-top: -60px;
+    margin-left: 7px;
+    margin-right: 2px;
+    border: none;
+}
+
+.card h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+}
+
+#product_ditels_short {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    color: #000;
+}
+
+.card-amount {
+    margin-top: -10px;
+    font-family: 'Roboto', sans-serif;
+    color: #cf2f19;
+    font-size: 22px;
+    
+}
+
+#add {
+    background-color: #7a7979;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0;
+    font-size: 12px;
+}
+
+#buy_now {
+    background-color: #169da7;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    font-size: 12px;
+}
+
+#add_banner {
+    margin-bottom: 30px;
+}
+@media screen and (min-width: 1322px) {
+    #top_products{
+        background-color: rgb(122, 122, 122);
+        border: none;
+        font-size: 20px;
+        color: #fff;
+        margin-bottom:20px;
+    }
+    #catagoris_heading {
+        background-image: linear-gradient( 109.6deg,  rgba(20,30,48,1) 11.2%, rgba(36,59,85,1) 91.1% );
+        border: none;
+        font-size: 22px;
+        color: #fff;
+        margin-bottom:20px;
+    }
+}
+@media screen and (max-width: 800px) {
+    #catagoris_heading {
+        background-color: rgb(122, 122, 122);
+        border: none;
+        font-size: 26px;
+        color: #fff;
+        margin-bottom:20px;
+    }
+    #icon_col i {
+        font-size: 22px;
+        margin: 5px;
+        padding: 10px;
+    }
+    #add{
+        font-size: 9px;
+    }
+    #buy_now {
+        font-size: 9px;
+    }
+  }
