@@ -11,7 +11,7 @@ function Footer() {
                             <div className="col-sm-6 col-md-3 item">
                                 <h3>Services</h3>
                                 <ul>
-                                    <li><a href="/">Othintic Products</a></li>
+                                    <li><a href="/">Authentic Products</a></li>
                                     <li><a href="/">24/7 Customer Support</a></li>
                                     <li><a href="/">Delivery in 3 days</a></li>
                                 </ul>
