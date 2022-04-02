@@ -7,6 +7,7 @@ import banner2 from '../images/b2.jpg';
 import banner3 from '../images/b3.jpg';
 import top_p1 from '../images/top_p1.jpg';
 import top_p2 from '../images/top_p2.jpg';
+import top_p3 from '../images/top_p3.jpg';
 import more from '../images/more.jpg';
 import add_banner from '../images/add_banner.jpg';
 import Footer from './Footer';
@@ -40,10 +41,7 @@ function Home() {
             {/* home header end */}
 
             {/* nav Start */}
-
             <Nav />
-
-
             {/* Nav end */}
 
             {/* List, slider Start */}
@@ -148,48 +146,23 @@ function Home() {
                 <div className="row row-cols-2 row-cols-md-5 g-4" id="home_products_area_no1">
                     <div className="col">
                         <div className="card h-80">
-                            <img src={top_p1} className="card-img-top" alt="..." />
+                            <img src={top_p3} className="img-responsivecard-img-top" alt="..." />
                             <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
                             </div>
                             <div className="card-footer">
                                 <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
-                                </small>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card h-80">
-                            <img src={top_p2} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
-                            </div>
-                            <div className="card-footer">
-                                <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
                                 </small>
                             </div>
                         </div>
@@ -198,46 +171,21 @@ function Home() {
                         <div className="card h-80">
                             <img src={top_p1} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
                             </div>
                             <div className="card-footer">
                                 <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
-                                </small>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card h-80">
-                            <img src={top_p2} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
-                            </div>
-                            <div className="card-footer">
-                                <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
                                 </small>
                             </div>
                         </div>
@@ -246,46 +194,90 @@ function Home() {
                         <div className="card h-80">
                             <img src={top_p1} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
                             </div>
                             <div className="card-footer">
                                 <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
                                 </small>
                             </div>
                         </div>
                     </div>
                     <div className="col">
                         <div className="card h-80">
-                            <img src={top_p2} className="card-img-top" alt="..." />
+                            <img src={top_p1} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
                             </div>
                             <div className="card-footer">
                                 <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card h-80">
+                            <img src={top_p1} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card-footer">
+                                <small className="text-muted">
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card h-80">
+                            <img src={top_p1} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card-footer">
+                                <small className="text-muted">
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
                                 </small>
                             </div>
                         </div>
@@ -297,46 +289,21 @@ function Home() {
                         <div className="card h-80">
                             <img src={top_p1} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
                             </div>
                             <div className="card-footer">
                                 <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
-                                </small>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card h-80">
-                            <img src={top_p2} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
-                            </div>
-                            <div className="card-footer">
-                                <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
                                 </small>
                             </div>
                         </div>
@@ -345,22 +312,44 @@ function Home() {
                         <div className="card h-80">
                             <img src={top_p1} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
                             </div>
                             <div className="card-footer">
                                 <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card h-80">
+                            <img src={top_p1} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card-footer">
+                                <small className="text-muted">
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
                                 </small>
                             </div>
                         </div>
@@ -393,33 +382,33 @@ function Home() {
             {/* advertige_products_area_no1 end */}
 
             {/* home_products_area_no2 start */}
-            <div className="container" id="home_products_area_no2">
+            <div className="container">
                 <div className="row">
                     <div className="col-md-12" id="home_products__head_col">
                         <h6 id="catagoris_heading" className="list-group-item">Daily Needs</h6>
                     </div>
                 </div>
+
                 <div className="row row-cols-2 row-cols-md-5 g-4" id="home_products_area_no1">
                     <div className="col">
                         <div className="card h-80">
                             <img src={top_p1} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
                             </div>
                             <div className="card-footer">
                                 <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
                                 </small>
                             </div>
                         </div>
@@ -428,22 +417,21 @@ function Home() {
                         <div className="card h-80">
                             <img src={top_p2} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
                             </div>
                             <div className="card-footer">
                                 <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
                                 </small>
                             </div>
                         </div>
@@ -452,46 +440,21 @@ function Home() {
                         <div className="card h-80">
                             <img src={top_p1} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
                             </div>
                             <div className="card-footer">
                                 <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
-                                </small>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card h-80">
-                            <img src={top_p2} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
-                            </div>
-                            <div className="card-footer">
-                                <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
                                 </small>
                             </div>
                         </div>
@@ -500,46 +463,67 @@ function Home() {
                         <div className="card h-80">
                             <img src={top_p1} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
                             </div>
                             <div className="card-footer">
                                 <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
                                 </small>
                             </div>
                         </div>
                     </div>
                     <div className="col">
                         <div className="card h-80">
-                            <img src={top_p2} className="card-img-top" alt="..." />
+                            <img src={top_p1} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
                             </div>
                             <div className="card-footer">
                                 <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card h-80">
+                            <img src={top_p1} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card-footer">
+                                <small className="text-muted">
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
                                 </small>
                             </div>
                         </div>
@@ -551,46 +535,21 @@ function Home() {
                         <div className="card h-80">
                             <img src={top_p1} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
                             </div>
                             <div className="card-footer">
                                 <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
-                                </small>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card h-80">
-                            <img src={top_p2} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
-                            </div>
-                            <div className="card-footer">
-                                <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
                                 </small>
                             </div>
                         </div>
@@ -599,22 +558,44 @@ function Home() {
                         <div className="card h-80">
                             <img src={top_p1} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <p className="product_reating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </p>
-                                <h5 className="card-title">Product title</h5>
-                                <p className="card-text" id="product_ditels_short">Lorem ipsum dolor sit amet consectetur Voluptatum vero.</p>
-
-                                <p className="card-amount"> ৳ 500/=</p>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
                             </div>
                             <div className="card-footer">
                                 <small className="text-muted">
-                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i> Add</button>
-                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card h-80">
+                            <img src={top_p1} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <h5 className="card-title">Product title</h5>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-sm-12">
+                                        <p className="card-amount"> ৳ 500/=</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card-footer">
+                                <small className="text-muted">
+                                    <button className="btn" id="add"><i class="fas fa-plus-circle"></i></button>
+                                    <button className="btn" id="buy_now"><i class="fas fa-shopping-cart"></i></button>
                                 </small>
                             </div>
                         </div>

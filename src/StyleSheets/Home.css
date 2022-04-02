@@ -21,12 +21,14 @@
 
 #home_search_bun {
     margin-left: -50px;
-    background-image: linear-gradient(109.6deg, rgb(37, 64, 114) 11.2%, rgb(10, 47, 90) 91.1%);
+    /* background-image: linear-gradient(109.6deg, rgb(37, 64, 114) 11.2%, rgb(10, 47, 90) 91.1%); */
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(27, 150, 82) 0%, rgba(12,116,117,1) 90% );
     color: #fff;
 }
 
 #home_header .fas {
-    color: rgb(37, 64, 114);
+    /* color: rgb(37, 64, 114); */
+    color: #0f7a6f;
     margin-top: 50px;
     margin-left: 40px;
     font-size: 27px;
@@ -97,10 +99,11 @@
 }
 
 #icon_col i {
-    font-size: 45px;
+    font-size: 35px;
     margin: 20px;
-    color: rgb(37, 64, 114);
-    border: 1px solid rgb(37, 64, 114);
+    color: #fff;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(27, 150, 82) 0%, rgba(12,116,117,1) 90% );
+    border: 1px solid rgb(197, 197, 197);
     border-radius: 10px;
     padding: 10px;
 }
@@ -119,7 +122,13 @@
 #home_products__head_col {
     margin-top: 10px;
 }
-
+#catagoris_heading {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(27, 150, 82) 0%, rgba(12,116,117,1) 90% );
+    border: none;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom:20px;
+}
 .card {
     text-align: justify;
     border: none;
@@ -129,7 +138,7 @@
 
 .card:hover {
     transition: 400ms;
-    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+    box-shadow: rgb(53, 49, 49) 0px 5px 15px;
     border: none;
     /* color: rgb(52, 114, 37);
     border: 2px solid rgb(52, 114, 37); */
@@ -137,7 +146,7 @@
 
 .card img {
     padding: 10px;
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: block;
 
@@ -146,64 +155,56 @@
     margin-top:-20px;
 }
 .card-title{
-    margin-top:-20px;
-}
-.product_reating{
-    text-align: right;
-}
-.product_reating i{
-    font-size:14px;
-    color: rgb(241, 214, 77);
-}
-.card-footer {
-    background-color: #fff;
-    border: none;
+    margin-top:20px;
     text-align: center;
 }
-
-.card button {
-    text-align: center;
-    margin-top: -60px;
-    margin-left: 7px;
-    margin-right: 2px;
-    border: none;
-}
-
 .card h5 {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-
 }
-
-#product_ditels_short {
+.card-amount {
+    /* margin-top:20px; */
+    font-family: 'Roboto', sans-serif;
+    color: #da3a1e;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+/* #product_ditels_short {
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     text-align: justify;
     color: #000;
-}
-
-.card-amount {
-    margin-top: -10px;
-    font-family: 'Roboto', sans-serif;
-    color: #cf2f19;
-    font-size: 22px;
-    
+} */
+.card-footer {
+    margin-top:-30px;
+    margin-bottom:4px;
+    background-color: #fff;
+    border: none;
+    text-align: center;
 }
 
 #add {
     background-color: #7a7979;
     color: rgb(255, 255, 255);
     border: none;
-    border-radius: 0;
-    font-size: 12px;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 #buy_now {
-    background-color: #169da7;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(27, 150, 82) 0%, rgba(12,116,117,1) 90% );
     color: #fff;
     border: none;
-    border-radius: 0;
-    font-size: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.card button {
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 2px;
+    border: none;
 }
 
 #add_banner {
@@ -218,7 +219,7 @@
         margin-bottom:20px;
     }
     #catagoris_heading {
-        background-image: linear-gradient( 109.6deg,  rgba(20,30,48,1) 11.2%, rgba(36,59,85,1) 91.1% );
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(27, 150, 82) 0%, rgba(12,116,117,1) 90% );
         border: none;
         font-size: 22px;
         color: #fff;
